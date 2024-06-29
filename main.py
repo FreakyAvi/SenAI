@@ -23,7 +23,7 @@ def SApipeline(text):
 #initializing model and tokenizer
 tokenizer = AutoTokenizer.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
 model = AutoModelForSequenceClassification.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
-t = "it is okay"
+# t = "it is okay"
 # SApipeline(t)
 
 df = pd.read_csv("AmazonProdReviews.csv")
